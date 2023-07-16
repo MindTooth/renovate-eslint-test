@@ -2,9 +2,14 @@
   "extends": [
     "config:best-practices",
     ":automergeAll",
-    "schedule:automergeEarlyMondays",
-    "packages:eslint"
+    "schedule:automergeEarlyMondays"
   ],
   "platformAutomerge": true,
-  "recreateWhen": "always"
+  "recreateWhen": "always",
+  "packageRules": [
+    {
+      "extends": ["packages:eslint"],
+      "groupName": "eslint"
+    }
+  ]
 }
