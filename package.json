@@ -68,7 +68,7 @@
     "solid-js": "1.4.2",
     "svelte": "3.58.0",
     "ts-jest": "28.0.2",
-    "typescript": "4.6.4",
+    "typescript": "5.1.6",
     "vue": "3.2.35"
   },
   "peerDependencies": {
