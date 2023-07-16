@@ -1,15 +1,8 @@
 {
   "extends": [
     "config:best-practices",
+    "group:linters",
     ":automergeAll",
     "schedule:automergeEarlyMondays"
-  ],
-  "platformAutomerge": true,
-  "recreateWhen": "always",
-  "packageRules": [
-    {
-      "extends": ["packages:eslint"],
-      "groupName": "eslint"
-    }
   ]
 }
