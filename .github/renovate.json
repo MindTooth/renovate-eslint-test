@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:best-practices",
+    ":automergeAll",
+    "schedule:automergeEarlyMondays",
+    "packages:eslint"
+  ],
+  "platformAutomerge": true,
+  "recreateWhen": "always"
+}
